@@ -38,10 +38,9 @@
           <div class="user-input">
             <div class="form-group">
               <label for="user-answer">Sua Resposta:</label>
-              <input type="text" pattern="\d*" class="form-control" id="user-answer" aria-describedby="valorHelp" placeholder="resposta">
+              <input type="text" pattern="[0-9]*" inputmode="numeric" class="form-control" id="user-answer" aria-describedby="valorHelp" placeholder="resposta">
               <small id="valorHelp" class="form-text text-muted">Responda o valor correto de acordo com a pergunta.</small>
             </div>
-            <br>
             <button type="button" id="check-answer" class="btn btn-primary">Conferir</button>
             <button type="button" id="next" class="btn btn-primary">Próxima</button>
           </div>
