@@ -1,0 +1,20 @@
+{
+  "name": "first-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server -p 3000 --cors -c-1",
+    "lint": "eslint lib/ --ext .js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

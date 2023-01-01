@@ -1,0 +1,54 @@
+.state-answering .alert, .state-answering #next, .state-answering #result, .state-answering .hinde-on-answering {
+  display: none;
+}
+
+.state-answered-correct #check-answer, .state-answered-wrong #check-answer {
+  display: none;
+}
+
+.state-answered-correct .alert-danger {
+  display: none;
+}
+
+.state-answered-wrong .alert-success {
+  display: none;
+}
+
+.state {
+  display: none;
+}
+
+#result p span {
+  color: rgb(23, 162, 184);
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2em;
+  color: rgb(23, 162, 184);
+  font-style: italic;
+}
+
+.container {
+  margin-top: 4em;
+}
+
+.quiz * {
+  text-align: center;
+}
+
+table th, table td {
+  text-align: center;
+}
+
+h3 span {
+  color: rgb(243, 156, 18);
+}
+
+.user-input {
+  margin: 1em auto;
+}
